@@ -26,6 +26,11 @@ namespace Arrays.Net5._0
 
             //Another way of initializing an array
             int[] gradesOfMathStudentsA = { 20, 13, 12, 8, 8 };
+
+            //Third way of initializing an array
+            int[] gradesOfMathStudentsB = new int[] { 15, 20, 3, 17, 18, 15 };
+
+            Console.WriteLine("Length of gradesOfMathStudentsA: {0}", gradesOfMathStudentsA.Length); 
         }
     }
 }
