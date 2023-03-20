@@ -30,7 +30,18 @@ namespace Arrays.Net5._0
             //Third way of initializing an array
             int[] gradesOfMathStudentsB = new int[] { 15, 20, 3, 17, 18, 15 };
 
-            Console.WriteLine("Length of gradesOfMathStudentsA: {0}", gradesOfMathStudentsA.Length); 
+            Console.WriteLine("Length of gradesOfMathStudentsA: {0}", gradesOfMathStudentsA.Length);
+
+
+            //Foreach loop
+
+            int[] nums = new int[10];
+
+            for(int i = 0; 1 < 10; i++)
+            {
+                nums[i] = i;
+            }
+
         }
     }
 }
