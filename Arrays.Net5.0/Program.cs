@@ -16,6 +16,13 @@ namespace Arrays.Net5._0
 
             Console.WriteLine("grades at index 0 : {0}", grades[0]);
             Console.ReadKey();
+
+            /* To allow a user to input 
+            string input = Console.Readline();
+            grades[0] = int.Parse(input);
+            Console.WriteLine("grades at index 0 : {0}", grades[0]);
+            Console.ReadKey();
+             */
         }
     }
 }
