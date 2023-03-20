@@ -6,7 +6,7 @@ namespace Arrays.Net5._0
     {
         static void Main(string[] args)
         {
-            int[] grades = new int[5];
+            /*int[] grades = new int[5];
 
             grades[0] = 20;
             grades[1] = 15;
@@ -24,20 +24,20 @@ namespace Arrays.Net5._0
             Console.ReadKey();
              */
 
-            //Another way of initializing an array
+            /*Another way of initializing an array
             int[] gradesOfMathStudentsA = { 20, 13, 12, 8, 8 };
 
             //Third way of initializing an array
             int[] gradesOfMathStudentsB = new int[] { 15, 20, 3, 17, 18, 15 };
 
-            Console.WriteLine("Length of gradesOfMathStudentsA: {0}", gradesOfMathStudentsA.Length);
+            Console.WriteLine("Length of gradesOfMathStudentsA: {0}", gradesOfMathStudentsA.Length);*/
 
 
             //Foreach loop
 
             int[] nums = new int[10];
 
-            for(int i = 0; 1 < 10; i++)
+            for(int i = 0; i < 10; i++)
             {
                 nums[i] = i;
             }
