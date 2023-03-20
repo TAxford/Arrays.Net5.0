@@ -47,6 +47,12 @@ namespace Arrays.Net5._0
                 Console.WriteLine("Element{0} = {1}", j, nums[j]);
             }
 
+            int counter = 0;
+            foreach (int k in nums)
+            {
+                Console.WriteLine("Element{0} = {1}", counter, nums[k]);
+            }
+
             Console.ReadKey();
 
         }
