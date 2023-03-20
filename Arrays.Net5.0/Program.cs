@@ -6,7 +6,7 @@ namespace Arrays.Net5._0
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int[] grades = new int[5];
         }
     }
 }
